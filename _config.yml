@@ -25,6 +25,9 @@ github_username: clinton1719
 minimal_mistakes_skin: contrast
 search: true
 
+url: "https://clinton1719.github.io"
+baseurl: "/clinton-blogs"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
