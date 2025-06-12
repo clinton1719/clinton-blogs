@@ -1,0 +1,92 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\setmainfont[
+  Path = ./,
+  UprightFont = {FS Elliot ProRegular},
+  BoldFont = {FS Elliot ProBold},
+  ItalicFont = {FS Elliot ProItalic},
+  BoldItalicFont = {FS Elliot ProBoldItalic}
+]{FS Elliot ProRegular}
+
+% Formatting
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\renewcommand{\baselinestretch}{1.2}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color[HTML]{0076CF}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries\color[HTML]{0076CF}}{}{0em}{}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Clinton Fernandes}} \\[0.5em]
+    \href{mailto:clintoncleetus17@gmail.com}{clintoncleetus17@gmail.com} \hspace{1em} | \hspace{1em} +91 9987593538 \hspace{1em} | \hspace{1em} \href{https://www.linkedin.com/in/clinton-fernandes-45932915a/}{linkedin.com/in/clinton-fernandes}
+\end{center}
+
+\vspace{1em}
+\section*{About me}
+Results-driven Senior Software Engineer with 5+ years of experience in building scalable, \textbf{cloud-native} applications using \textbf{Java, Spring Boot, and AWS Serverless technologies}. Proven track record of optimizing cloud infrastructure, reducing costs by up to 60\%, and accelerating CI/CD pipelines by over 65\%. Adept at designing event-driven systems with \textbf{Lambda, SQS, ECS, and CDK}. Recognized with multiple awards for \textbf{delivery excellence} and technical leadership. Passionate about system design, automation, and empowering teams through knowledge sharing.
+
+\vspace{1em}
+\section*{Skills}
+\textbf{Programming Languages:} Java (Advanced), TypeScript, Python, HTML \& CSS \\
+\textbf{Cloud:} AWS Serverless - Lambda, SQS, S3, API Gateway, CloudFront, Route53, ECS, CloudWatch, X-Ray, CDK (TypeScript), IAM, KMS, and cloud-native debugging skills \\
+\textbf{Frameworks/Technologies:} Spring Boot, Spring MVC, Hibernate, ReactJS, NextJS, NodeJS, Quarkus, Helidon \\
+\textbf{Architectural Experience:} Event-driven and CQRS patterns, Serverless (extensive), Infrastructure as Code, Cache Loading Strategies, Java Behavioral and Creational Patterns \\
+\textbf{Tools:} Git, Jenkins, Docker, Kubernetes, WebSphere, PuTTY, WinSQL \\
+\textbf{Soft Skills:} Leadership, Communication, Problem-Solving, Team Collaboration
+
+\section*{Professional Experience}
+\textbf{Software Engineer} \hfill \textbf{January 2023 -- Present} \\
+Principal Global Services, Pune, Maharashtra
+\begin{itemize}[left=0em]
+    \item \textbf{Automated BGA office updates} in the digital \textbf{Request for Proposal} application by developing a custom \textbf{Spring Boot} application to dynamically read and update lists, improving operational efficiency.
+    \item \textbf{Designed and implemented a custom load testing service} using \textbf{Helidon, ECS, Lambda, and SQS} in an event-driven serverless architecture, enhancing system reliability and scalability.
+    \item \textbf{Streamlined integration testing} for the \textbf{Disability Insurance Calculator} by enabling test creation through \textbf{Excel-based automation}, reducing manual effort by \textbf{40\%}.
+    \item \textbf{Achieved a 60\% reduction in AWS costs} by identifying and consolidating duplicate \textbf{KMS keys}, optimizing the system with a single \textbf{CMK key}, and successfully presenting the analysis to stakeholders.
+    \item \textbf{Resolved a critical production issue} related to rate limiting by implementing an \textbf{exponential back-off strategy}, ensuring zero production issues thereafter.
+    \item \textbf{Reduced CI/CD pipeline duration by over 65\%} through the use of \textbf{GitHub matrix builds} and \textbf{parallel execution} in the digital \textbf{Request for Proposal} application.
+    \item Conducted \textbf{knowledge-sharing sessions} for the team and presented a topic on \textbf{Lambda Power Tools} during a \textbf{Tech Leads meeting}, enhancing team expertise.
+    \end{itemize}
+
+    \textbf{Software Engineer} \hfill \textbf{September 2020 -- December 2022} \\
+    \textbf{Tata Consultancy Services (ICICI Prudential Life Insurance Company)}, Mumbai, Maharashtra
+    \begin{itemize}[left=0em]
+        \item \textbf{Delivered 140+ requirements}, including several \textbf{microservices}, ensuring demonstration within sprints and engineering changes directed by the client.
+        \item \textbf{Optimized a web application}, reducing the processing time of a \textbf{7-page journey} by \textbf{8 seconds} through code reuse and interfaces.
+        \item \textbf{Designed and developed 3 major and 2 minor Spring applications} integrating frameworks such as \textbf{Spring Boot, Spring MVC, and Hibernate}.
+        \item Assisted in \textbf{migrating legacy systems to AWS-based infrastructure}, improving system performance and scalability.
+    \end{itemize}
+
+\section*{Key Accomplishments}
+\begin{itemize}[left=0em]
+    \item \textbf{AWS Certifications:} Completed AWS certifications for \textbf{AWS Cloud Practitioner} and \textbf{AWS Certified Developer Associate}.
+    \item \textbf{On-the-Spot Award (ICICI):} Received a performance award for delivering multiple enhancements ahead of schedule and coordinating with other teams to resolve critical issues.
+    \item \textbf{Delivery Excellence Award (Principal):} Awarded consecutively for two years (2023 \& 2024) for consistent quality production releases without issues and commitment to timelines.
+    \item \textbf{Spot Award (Principal):} Awarded 2025 for handling and solving multiple issues simultaneously
+    \item \textbf{Cost Optimization:} Achieved significant cost savings by optimizing AWS infrastructure and presenting actionable insights to stakeholders.
+\end{itemize}
+
+\section*{Education}
+\textbf{Bachelor of Technology in Computer Science} \hfill \textbf{May 2020} \\
+Sree Chitra Thirunal College of Engineering, Thiruvananthapuram, Kerala \\
+Relevant Coursework: Data Structures, Algorithms, Software Engineering, Cloud Computing
+
+\section*{Projects}
+\textbf{cloud-circuitbreaker} \hfill \textbf{GitHub: \href{https://github.com/clinton1719/cloud-circuitbreaker}{cloud-circuitbreake}} \\
+cloud-circuitbreaker: A distributed, cloud-native circuit breaker library published to maven central for AWS-based systems, with Spring Boot support and DynamoDB backend.
+
+\textbf{PR Viewer Application} \hfill \textbf{GitHub: \href{https://github.com/clinton1719/praise}{PRaise}} \\
+PRaise: An application to track and view open PRs in a GitHub repository.
+
+\textbf{GitHub Profile Search App} \hfill \textbf{GitHub: \href{https://github.com/clinton1719/Github-Profile-Search-App}{Github-Profile-Search-App}} \\
+GitHub-Profile-Search-App: A ReactJS app with Hooks to search and view GitHub profiles.
+
+\end{document}
