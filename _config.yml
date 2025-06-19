@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   projects. Dive into serverless architectures, distributed systems, and
   production-ready code walkthroughs. Learn how to build scalable,
   cost-efficient apps on the modern web.
-twitter_username: MinimalDebugger
 github_username: clinton1719
 minimal_mistakes_skin: contrast
 search: true
@@ -72,9 +71,6 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/MinimalDebugger"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/clinton1719"
@@ -84,9 +80,6 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/MinimalDebugger"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/clinton1719"
