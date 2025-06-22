@@ -6,8 +6,6 @@ categories: [AWS]
 description: "A breakdown of how to resolve 'Need to perform AWS calls for account xxx, but no credentials have been configured' error"
 ---
 
-# Troubleshooting OIDC Role Permission Issues in AWS CDK Deployments
-
 When working with AWS CDK in environments where OpenID Connect (OIDC) is used for role assumption—especially in CI/CD pipelines—developers often encounter cryptic permission-related errors. These can be frustrating, time-consuming, and opaque, even for experienced engineers. In this post, I’ll walk through a real-world debugging experience that took me nearly four hours to resolve, along with general strategies that can help others avoid similar pitfalls.
 
 ## The Problem: OIDC Role Has Insufficient Permissions
