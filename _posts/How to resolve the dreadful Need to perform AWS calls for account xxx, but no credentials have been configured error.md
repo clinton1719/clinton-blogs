@@ -1,5 +1,5 @@
 ---
-title: "How to resolve the dreadful 'Need to perform AWS calls for account xxx, but no credentials have been configured' error"
+title: "How to resolve the dreadful Need to perform AWS calls for account xxx, but no credentials have been configured error"
 date: 2025-06-22
 tags: [aws, cdk, debugging]
 categories: [AWS]
